@@ -1,0 +1,9 @@
+{
+    "name": "ysncode/book_store",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {}
+}
