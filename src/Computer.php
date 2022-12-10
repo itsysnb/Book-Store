@@ -4,8 +4,9 @@ namespace App;
 
 class Computer implements ComputerStore
 {
+    CONST PRICE = 200;
     public function price(): int
     {
-        return 2500;
+        return self::PRICE;
     }
 }
